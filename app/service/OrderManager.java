@@ -13,7 +13,7 @@ public class OrderManager {
 
 	private static List<Order> orderList = new ArrayList<Order>();
 
-	public Order createOrder(List<Item> items) {
+	public Order createOrder(List<Item> items,String address) {
 		Order order = new Order();
 		for (Item item : items) {
 			order.addItem(item);

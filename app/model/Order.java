@@ -9,7 +9,7 @@ public class Order {
 	private Van van;
 	private Slot slot;
 	private double aggregateHeight, aggregateWidth, aggregateBreadth;
-	private boolean isDelivered;
+	private boolean isDelivered=false;
 	private String address;
 
 	public long getId() {
