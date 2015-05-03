@@ -2,7 +2,7 @@ package service;
 
 import model.Van;
 
-public class VanManager {
+public abstract class VanManager {
 
 	public static final int VAN_COUNT = 4;
 	private static int slottedVanCount=0;
